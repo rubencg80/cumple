@@ -1,0 +1,315 @@
+*{ /*Se usa un asterísco para seleccionar todo el documento*/
+    margin: 0; /*Se delcara un margin de 0 a todos los elementos del documento*/
+    padding: 0;  /*Se delcara un padding de 0 a todos los elementos del documento*/
+    font-family: 'Roboto', sans-serif; /*Se escoge la fuente para todo el documento*/
+  }
+  
+  header
+  {
+      width: 100%; /*Usar un porcentaje de la pantalla de manera horizontal*/
+      height: 100vh; /*Usar una cantidad de tamaño de manera vertical en la pantalla*/
+      background: linear-gradient(rgb(255, 251, 36), rgb(214, 214, 214)); /*Para poner un fondo*/
+  }
+  
+  nav{
+      display:flex; /*Separa los elementos que contenga, se acompaña de las siguientes dos etiquetas*/
+      justify-content: space-around; /*Alineación horizontal*/
+      align-items: flex-start; /*Alineación vertical*/
+      height: vh; /*Es la cantidad de pantalla que usará verticalmente*/
+      }
+  
+  nav p{
+      color: rgb(0, 0, 0); /*Cambia el color del texto seleccionado*/
+      font-size: 25px; /*Cambia el tamaño del texto*/
+      text-align: left; /*Cambia la alineación del texto*/
+      letter-spacing: 3px; /*Distancia entre letras*/
+      word-spacing: 5px; /*Distancia entre palabras*/
+      text-shadow: 5px 5px 5px black; /*Sombra de texto, vertical, horizontal, intensidad, color*/
+      font-weight: bold; /*Negrita del texto*/
+  }
+
+  hr{
+    color: black;
+  }
+  
+  .logo{
+          display:flex; /*Separa los elementos que contenga, se acompaña de las siguientes dos etiquetas*/
+          justify-content: left; /*Alineación horizontal*/
+          align-items: center; /*Alineación vertical*/
+  }
+  .logo img{
+      width: 10%; /*Hace que el logo sólo ocupe el 10% de tamaño de su sección*/
+  }
+  
+  ul{
+          display:flex; /*Centra las etiquetas de la lista*/
+  }
+  
+  li{
+          margin: 30px; /*Pixeles de separación entre los elementos de la lista*/
+          list-style-type: none; /*Quita los puntos por default de la lista*/
+  }
+  
+  a{
+      text-decoration: none; /*Elimina el subrayado de las palabras en la etiqueta a*/
+      color: rgb(0, 0, 0); /*Elección del color de la fuente*/
+      border: solid 1px rgb(0, 0, 0); /*Elección del borde del recuadro*/
+      background-color: rgb(255, 255, 255); /*Color del fondo del recuadro*/
+      padding: 10px; /*Espacio entre el contenido y el borde*/
+      border-radius: 20px; /*Redondeado de los bordes de los recuadros*/
+  }   
+  
+  a:hover{ /*Añade las siguientes funciones cuando el cursor pasa por encima del elemento*/
+      color: rgb(0, 0, 0);/*Elección del color de la fuente*/
+      background-color: rgb(255, 255, 255); /*Color del fondo del recuadro*/
+      font-size: 20px;
+      padding: 12px;
+  }
+  
+  /* Termina la barra de navegación */
+  
+  .caja{
+      display: flex; /*Centra los elementos de caja, en este caso, ambas "cajitas" */
+      justify-content: column; /*Alinea los elementos de forma horizontal*/
+      align-items: center; /*Alinea los elementos de manera vertical*/
+      height: 70vh; /*Determina el espacio que ocupará*/
+  }
+  
+  .cajita{
+      width: 50%; /*Determina el espacio que ocupará dentro de caja*/
+      text-align: center; /*Alinea el contenido de cajita*/
+  }
+  
+  .cajita h1{
+      font-size: 3.5em;
+  }
+  
+  .cajita p{
+      margin-bottom: 30px;
+  }
+  
+  .cajita img{
+      width: 75%;
+      border-radius: 25px;
+  }
+  
+  span{
+      color: rgb(250, 75, 75);
+  }
+  
+  .palabras{
+      width: 100%;
+      height: 50vh;
+      background: linear-gradient(rgb(214, 214, 214),  rgb(255, 251, 36));
+  }
+  
+  .palabras h2{
+      font-size: 3.5em;
+      text-align: center;
+  }
+  
+  .palabras1{
+      height: 30vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  .palabras2{
+    width: 80%;
+    height:20vh;
+    background: linear-gradient(rgb(255, 255, 255));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    border-color: black;
+    padding: 10px;
+    font-weight: bold;
+  }
+  
+  .Fotos{
+    height: 200vh;
+    background: linear-gradient(rgb(255, 251, 36), rgb(214, 214, 214));
+  }
+
+  .Fotos h2{
+    font-size: 3.5em;
+    text-align: center;
+  }
+
+  .Fotos1 p{
+    height: 5vh;
+    text-align: center;
+    font-size: 1.5em;
+  }
+
+  .separacion1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Fotonum1{
+    margin: 1%;
+    width: 80%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .Fotonum1 img{
+    width: 25%;
+    height: 40vh;
+    border-radius: 10px;
+  }
+
+  .Descfoto1 p{
+    margin: 10%;
+    width: 75%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 2em;
+  }
+
+  .separacion2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .Fotonum2{
+    margin: 1%;
+    width: 80%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .Fotonum2 img{
+    width: 25%;
+    height: 40vh;
+    border-radius: 10px;
+  }
+
+  .Descfoto2 p{
+    margin: 10%;
+    width: 75%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 2em;
+  }
+
+  .separacion3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+    .Fotonum3{
+    margin: 1%;
+    width: 80%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .Fotonum3 img{
+    width: 25%;
+    height: 40vh;
+    border-radius: 10px;
+  }
+
+  .Descfoto3 p{
+    margin: 10%;
+    width: 75%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 2em;
+  }
+
+  .separacion4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .Fotonum4{
+    margin: 1%;
+    width: 80%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .Fotonum4 img{
+    width: 25%;
+    height: 40vh;
+    border-radius: 10px;
+  }
+
+  .Descfoto4 p{
+    margin: 10%;
+    width: 75%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 2em;
+  }
+
+  .Regalo{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient( rgb(214, 214, 214), rgb(255, 251, 36));
+  }
+
+  .Regalo h2{
+    font-size: 3.5em;
+    text-align: center;
+  }
+
+  .Regalo1 p{
+    height: 5vh;
+    text-align: center;
+    font-size: 2em;
+  }
+
+  .Regalo2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  
+  .Regalo3 p{
+    height: 5vh;
+    text-align: center;
+    font-size: 2em;
+  }
+
+  .Regalo2 img{
+    width: 20%; /*Hace que el logo sólo ocupe el 10% de tamaño de su sección*/
+    border-radius: 10px;
+  }
